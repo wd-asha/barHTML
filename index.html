@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bar Piv Bull | Лучший бар в Уфе</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="toTop">&#8249;</div>
+
+<div class="fix-box" id="fix-box"></div>
+
+<div class="popup" id="popupPhone">
+    <a href="#fix-box" class="popup_area"></a>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#fix-box" class="popup_close">
+                &times;
+            </a>
+            <div class="popup_title">Оставить заявку</div>
+            <p class="popup__text">Чтобы оставить заявку, пожалуйста, заполните свои контактные данные</p>
+            <div class="popup_text">
+                <form class="phone-form" action="" method="post" id="phoneForm" name="phoneForm">
+                    <input class="name-input" type="text" placeholder="Имя" required name="name">
+                    <input class="phone-input" type="tel" placeholder="Телефон" required name="phone">
+                    <div class="order-form__check">
+                        <input type="checkbox" class="checkbox" name="check" style="cursor: pointer; opacity: .8; background-color: black;" id="checkBox2">
+                        <p class="order-form__check__txt">Нажимая кнопку вы даете согласие <a href="#">на обработку ваших персональных данных</a></p>
+                    </div>
+                    <a href="#orderSuccess" type="submit" class="phone-submit" id="phoneSubmit">Отправить</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="orderSuccess">
+    <a href="#fix-box" class="popup_area"></a>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#fix-box" class="popup_close">
+                &times;
+            </a>
+            <div class="orderSuccess__content">
+                <div class="orderSuccess__title">Заявка успешно отправлена!</div>
+                <div class="orderSuccess__text">
+                    Наши специалисты свяжутся с Вами. Спасибо, что выбрали нас!
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<main>
+
+    <section class="firstBox">
+        <div class="firstBox__leftImageBox">
+            <img src="images/firstBoxLeftImage-min.png" alt="">
+        </div>
+        <div class="firstBox__centerTextBox">
+            <a href="#" class="burger" id="burger">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </a>
+            <div class="mobileMenu" id="mobileMenu">
+                <a href="#about" class="mobileMenu__item">О&nbsp;нас</a>
+                <a href="#services" class="mobileMenu__item">Услуги</a>
+                <a href="#action" class="mobileMenu__item">Акция</a>
+                <a href="#reviews" class="mobileMenu__item">Отзывы</a>
+                <a href="#gallery" class="mobileMenu__item">Галерея</a>
+                <a href="#contacts" class="mobileMenu__item">Контакты</a>
+            </div>
+            <header class="centerTextBox__header">
+                <div class="header__logoBox">
+                    <div class="header__logo">
+                        <img src="images/logo80.png" alt="">
+                    </div>
+                </div>
+                <h2 class="header__title">Bar PivBull</h2>
+                <span class="header__subtitle">8 347 200-20-44</span>
+                <nav class="header__nav">
+                    <!--<a href="#" class="header__nav__item header__nav__item&#45;&#45;active">Главная</a>-->
+                    <a href="#about" class="header__nav__item">О&nbsp;нас</a>
+                    <a href="#services" class="header__nav__item">Услуги</a>
+                    <a href="#action" class="header__nav__item">Акция</a>
+                    <a href="#reviews" class="header__nav__item">Отзывы</a>
+                    <a href="#gallery" class="header__nav__item">Галерея</a>
+                    <a href="#contacts" class="header__nav__item">Контакты</a>
+                    <!--<span class="header__nav__more">...</span>-->
+                </nav>
+            </header>
+            <div class="centerTextBox__title1">Лучший <span>бар</span></div>
+            <div class="centerTextBox__title2">В УФЕ</div>
+            <p class="centerTextBox__text">У нас вы найдете большой ассортимент алкогольных и не только напитков, а так же сможете подкрепиться блюдами нашей кухни</p>
+            <div class="centerTextBox__linksBox">
+                <div class="linksBox__order">
+                    <a href="#popupPhone" class="order__link">Оставить заявку <span>&rarr;</span></a>
+                </div>
+                <div class="linksBox__socials">
+                    <a href="" class="socials__link">
+                        <img src="images/vk.png" alt="">
+                    </a>
+                    <a href="" class="socials__link">
+                        <img src="images/whatsapp.png" alt="">
+                    </a>
+                    <a href="" class="socials__link">
+                        <img src="images/youtube.png" alt="">
+                    </a>
+                    <a href="" class="socials__link">
+                        <img src="images/telegram.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="firstBox__rightImageBox">
+            <img src="images/firstBoxRightImage-min.png" alt="">
+        </div>
+    </section>
+
+    <section class="secondBox">
+        <div class="secondBox__item">
+            <div class="secondBox__item__number">01</div>
+            <div class="secondBox__item__caption">Выбор напитков</div>
+            <div class="secondBox__item__text">У нас есть все виды коктейлей, вин и пива, чтобы удовлетворить любой вкус и желание</div>
+        </div>
+        <div class="secondBox__item">
+            <div class="secondBox__item__number">02</div>
+            <div class="secondBox__item__caption">Живая музыка</div>
+            <div class="secondBox__item__text">Мы постоянно вносим новшества, чтобы создать мероприятия, которые останутся надолго в памяти</div>
+        </div>
+        <div class="secondBox__item">
+            <div class="secondBox__item__number">03</div>
+            <div class="secondBox__item__caption">Широкие возможности</div>
+            <div class="secondBox__item__text">У нас есть различные акции на напитки, что делает
+                ваш визит к нам еще более увлекательным</div>
+        </div>
+        <div class="secondBox__item">
+            <div class="secondBox__item__number">04</div>
+            <div class="secondBox__item__caption">Кальян и караоке</div>
+            <div class="secondBox__item__text">У нас есть различные акции на напитки, что делает
+                ваш визит к нам еще более увлекательным</div>
+        </div>
+    </section>
+
+    <section class="thirdBox" id="about">
+        <div class="thirdBox__left">
+            <img src="images/about2-min.png" class="about2" id="about2" alt="">
+            <img src="images/about1-min.png" class="about1" id="about1" alt="">
+            <img src="images/about1-min.png" class="about0" alt="">
+            <div class="thirdBox__left__content">
+                <div class="thirdBox__left__title"><span>15</span> лет лучшей работы!</div>
+                <div class="thirdBox__left__text">Мы команда лучших специалистов, оказывающая профессиональные услуги уже более 15 лет</div>
+            </div>
+        </div>
+        <div class="thirdBox__right">
+            <div class="thirdBox__right__title1">Немного о</div>
+            <div class="thirdBox__right__title2">нашем <span>баре</span></div>
+            <p class="thirdBox__right__text">Добро пожаловать в наш бар, где каждый вечер - это праздник! Наши бармены являются настоящими магами коктейльного искусства и готовы приготовить вам любимый напиток. Мы гордимся нашей широкой и разнообразной карточкой напитков, включая крафтовое пиво, вина из разных уголков мира, а также классические и авторские коктейли</p>
+            <p class="thirdBox__right__text">Мы предлагаем широкий выбор напитков и закусок, чтобы удовлетворить любой вкус. Наша команда барменов является настоящими мастерами в создании коктейлей и готова порадовать вас своими умениями. Мы также предоставляем живую музыку разных жанров, чтобы вы могли наслаждаться атмосферой элегантного и уютного бара. У нас всегда есть что-то интересное на столе и мы рады проводить время с каждым из наших гостей</p>
+            <div class="thirdBox__right__read">
+                <a href="#" class="read__link">Читать подробнее <span>&rarr;</span></a>
+            </div>
+            <div class="thirdBox__right__counts">
+                <div class="count">
+                    <div class="count__number">15+</div>
+                    <div class="count__text">Видов пива на выбор</div>
+                </div>
+                <div class="count">
+                    <div class="count__number">90+</div>
+                    <div class="count__text">Клиентов каждый день</div>
+                </div>
+                <div class="count">
+                    <div class="count__number">20</div>
+                    <div class="count__text">Официантов и барменов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourBox" id="services">
+    <div class="fourBox__services">
+        <div class="services__title">Предлагаем <span>вам</span></div>
+        <p class="services__text">Приходите к нам! Наш бар - просторное и комфортное заведение, за короткий срок обретшее репутацию одного из лучших баров города</p>
+        <div class="services__link">
+            <a href="#" class="seeAll__link">Смотреть все <span>&rarr;</span></a>
+        </div>
+    </div>
+</section>
+
+    <section class="swiperBox">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/slide1-min.jpg" alt="service">
+                <div class="swiper-slide__overlay">
+                    <a href="#popupPhone" class="swiper-slide__overlay__link">Заказать</a>
+                </div>
+                <div class="swiper-slide__content">
+                    <div class="swiper-slide__line"></div>
+                    <div class="swiper-slide__title">Барная карта</div>
+                    <div class="swiper-slide__number">01</div>
+                    <div class="swiper-slide__text">Примерное краткое описание. Текст на сайте редактируемый</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide2-min.jpg" alt="service">
+                <div class="swiper-slide__overlay">
+                    <a href="#popupPhone" class="swiper-slide__overlay__link">Заказать</a>
+                </div>
+                <div class="swiper-slide__content">
+                    <div class="swiper-slide__line"></div>
+                    <div class="swiper-slide__title">Лучшие кальяны</div>
+                    <div class="swiper-slide__number">02</div>
+                    <div class="swiper-slide__text">Примерное краткое описание. Текст на сайте редактируемый</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide3-min.jpg" alt="service">
+                <div class="swiper-slide__overlay">
+                    <a href="#popupPhone" class="swiper-slide__overlay__link">Заказать</a>
+                </div>
+                <div class="swiper-slide__content">
+                    <div class="swiper-slide__line"></div>
+                    <div class="swiper-slide__title">Вкусная кухня</div>
+                    <div class="swiper-slide__number">03</div>
+                    <div class="swiper-slide__text">Примерное краткое описание. Текст на сайте редактируемый</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide4-min.jpg" alt="service">
+                <div class="swiper-slide__overlay">
+                    <a href="#popupPhone" class="swiper-slide__overlay__link">Заказать</a>
+                </div>
+                <div class="swiper-slide__content">
+                    <div class="swiper-slide__line"></div>
+                    <div class="swiper-slide__title">Авторские коктейли</div>
+                    <div class="swiper-slide__number">04</div>
+                    <div class="swiper-slide__text">Примерное краткое описание. Текст на сайте редактируемый</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide5-min.jpg" alt="service">
+                <div class="swiper-slide__overlay">
+                    <a href="#popupPhone" class="swiper-slide__overlay__link">Заказать</a>
+                </div>
+                <div class="swiper-slide__content">
+                    <div class="swiper-slide__line"></div>
+                    <div class="swiper-slide__title">Бестселлеры бара</div>
+                    <div class="swiper-slide__number">05</div>
+                    <div class="swiper-slide__text">Примерное краткое описание. Текст на сайте редактируемый</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide6-min.jpg" alt="service">
+                <div class="swiper-slide__overlay">
+                    <a href="#popupPhone" class="swiper-slide__overlay__link">Заказать</a>
+                </div>
+                <div class="swiper-slide__content">
+                    <div class="swiper-slide__line"></div>
+                    <div class="swiper-slide__title">Наша кухня</div>
+                    <div class="swiper-slide__number">06</div>
+                    <div class="swiper-slide__text">Примерное краткое описание. Текст на сайте редактируемый</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="fifthBox">
+        <div class="fifthBox__title">Почему <span>мы</span> лучшие</div>
+        <div class="fifthBox__advantages">
+            <div class="fifthBox__advantage">
+                <div class="advantage__image">
+                    <img src="images/adv1.svg" alt="">
+                </div>
+                <div class="advantage__caption">Большой выбор</div>
+                <p class="advantage__text">Примерное краткое описание. Текст на сайте редактируемый</p>
+            </div>
+            <div class="fifthBox__advantage">
+                <div class="advantage__image">
+                    <img src="images/adv2.svg" alt="">
+                </div>
+                <div class="advantage__caption">Живая музыка</div>
+                <p class="advantage__text">Примерное краткое описание. Текст на сайте редактируемый</p>
+            </div>
+            <div class="fifthBox__advantage advantage__active">
+                <div class="advantage__image">
+                    <img src="images/adv3.svg" alt="">
+                </div>
+                <div class="advantage__caption">Великолепная кухня</div>
+                <p class="advantage__text">Примерное краткое описание. Текст на сайте редактируемый</p>
+            </div>
+            <div class="fifthBox__advantage">
+                <div class="advantage__image">
+                    <img src="images/adv4.svg" alt="">
+                </div>
+                <div class="advantage__caption">Доступные цены</div>
+                <p class="advantage__text">Примерное краткое описание. Текст на сайте редактируемый</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="actionsBox" id="action">
+        <div class="actionsBox__action">
+            <div class="action__title">Акция <span>недели</span></div>
+            <p class="action__text">Мы рады сообщить Вам о запуске акции на наши популярные квесты! Только в течение месяца вы можете попасть на квесты со скидкой до 20%! Не упустите свой шанс погрузиться в увлекательные приключения, раскрыть тайны и разгадать головоломки вместе с друзьями или коллегами. Закажите квест прямо сейчас на нашем сайте, используя специальный промокод или обратитесь к нашим менеджерам для консультации и выбора программы под вас</p>
+        </div>
+    </section>
+
+    <section class="nineBox">
+        <div class="fourBox__services">
+            <div class="services__title">В распоряжении <span>гостей</span></div>
+            <p class="services__text">Предлагаем индивидуальный подход к нашим клиентам</p>
+        </div>
+        <div class="nineBox__gallery">
+            <div class="gallery__box1">
+                <div class="nineBox__item">
+                    <div class="nineBox__item__number">01</div>
+                    <div class="nineBox__item__caption">Просторный зал</div>
+                    <p class="nineBox__item__text">Вместимость нашего зала до 60 персон. У нас внимательный персонал и большие порции</p>
+                </div>
+            </div>
+            <a href="" class="gallery__box2">
+
+            </a>
+            <div class="gallery__box3">
+                <div class="nineBox__item">
+                    <div class="nineBox__item__number">02</div>
+                    <div class="nineBox__item__caption">Программа лояльности</div>
+                    <p class="nineBox__item__text">Дружественная программа лояльности, которая позволяет вам копить и тратить бонусы</p>
+                </div>
+            </div>
+            <div class="gallery__box4">
+                <div class="nineBox__item">
+                    <div class="nineBox__item__number">03</div>
+                    <div class="nineBox__item__caption">Открытая кухня</div>
+                    <p class="nineBox__item__text">Вы сможете погрузится в мир кулинарных изысков. Также вы можете заказать кондитерские изделия</p>
+                </div>
+            </div>
+            <div class="gallery__box5">
+                <div class="nineBox__item">
+                    <div class="nineBox__item__number">04</div>
+                    <div class="nineBox__item__caption">TV и фоновая музыка</div>
+                    <p class="nineBox__item__text">Также для вас работает караоке, профессиональная мультимедийная аппаратура, шоу программы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sixBox" id="reviews">
+        <div class="sixBox__image">
+            <img src="images/reviews1-min.jpg" alt="">
+            <div class="sixBox__image__overlay"></div>
+        </div>
+        <div class="sixBox__reviews">
+            <div class="reviews__title">Мы ценим <span>каждого</span></div>
+            <div class="reviews__link">
+                <a href="#" class="readAll__link">Оставить отзыв <span>&rarr;</span></a>
+            </div>
+            <div class="swiperBox2">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p class="review__text">
+                                Сайт просто супер. Ребята молодцы, делают свою работу на высоком уровне. Товары всегда новые, цены вполне доступные. Часто проводятся скидки, акции, что особо радует :) Буду рекомендовать всем друзьям и близким.
+                            </p>
+                            <div class="review__user">
+                                <div class="review__user__image">
+                                    <img src="images/user1-min.jpg" alt="">
+                                    <div class="quotes">&#10078;</div>
+                                </div>
+                                <div class="review__user__name">
+                                    Громов Виталий
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="review__text">
+                                Сайт просто супер. Ребята молодцы, делают свою работу на высоком уровне. Товары всегда новые, цены вполне доступные. Часто проводятся скидки, акции, что особо радует :) Буду рекомендовать всем друзьям и близким.
+                            </p>
+                            <div class="review__user">
+                                <div class="review__user__image">
+                                    <img src="images/user2-min.jpg" alt="">
+                                    <div class="quotes">&#10078;</div>
+                                </div>
+                                <div class="review__user__name">
+                                    Алексеева Дарья
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="review__text">
+                                Сайт просто супер. Ребята молодцы, делают свою работу на высоком уровне. Товары всегда новые, цены вполне доступные. Часто проводятся скидки, акции, что особо радует :) Буду рекомендовать всем друзьям и близким.
+                            </p>
+                            <div class="review__user">
+                                <div class="review__user__image">
+                                    <img src="images/user3-min.jpg" alt="">
+                                    <div class="quotes">&#10078;</div>
+                                </div>
+                                <div class="review__user__name">
+                                    Куликов Андрей
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sevenBox" id="gallery">
+        <div class="fourBox__services">
+            <div class="services__title">Отмосфера <span>бара</span></div>
+            <p class="services__text">Воплощаем творческие идеи и создаём уют вашим встречам с друзьями. Не упустите возможность посетить самый лучший бар в городе</p>
+            <div class="services__link">
+                <a href="#" class="seeAll__link">Смотреть все <span>&rarr;</span></a>
+            </div>
+        </div>
+        <div class="sevenBox__gallery">
+            <a href="" class="gallery__item1">
+                <img src="images/gallery1-min.jpg" alt="">
+                <span class="gallery__item__overlay"></span>
+            </a>
+            <a href="" class="gallery__item2">
+                <img src="images/gallery22-min.jpg" alt="">
+                <span class="gallery__item__overlay"></span>
+            </a>
+            <a href="" class="gallery__item3">
+                <img src="images/gallery3-min.jpg" alt="">
+                <span class="gallery__item__overlay"></span>
+            </a>
+            <a href="" class="gallery__item4">
+                <img src="images/gallery4-min.jpg" alt="">
+                <span class="gallery__item__overlay"></span>
+            </a>
+            <a href="" class="gallery__item5">
+                <img src="images/gallery5-min.jpg" alt="">
+                <span class="gallery__item__overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <section class="eightBox">
+        <div class="bg-image">
+            <div class="eightBox__content">
+                <div class="eightBox__content__title">Зарезервируйте столик<br><span>прямо сейчас</span>
+                    <div class="content__text-p">
+                        <p class="eightBox__content__text">Каждую пятницу с 19 до 22 часов у нас Happy Hour: четыре коктейля по цене одного!</p>
+                        <p class="eightBox__content__text">Наслаждайтесь изысканными коктейлями, готовыми нашими лучшими барменами</p>
+                    </div>
+                </div>
+                <div class="eightBox__content__link">
+                        <a href="#popupPhone" class="eightBox__link">Заказать столик</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourBox">
+        <div class="fourBox__services">
+            <div class="services__title">Наши <span>контакты</span></div>
+            <p class="services__text">Хотите обсудить проект или не нашли на сайте нужную информацию? Для этого просто заполните форму и мы свяжемся с вами в ближайшее время</p>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contacts__item">
+            <div class="contacts__item__header">
+                <div class="item__header__icon">
+                    <img src="images/phone.png">
+                </div>
+                <p class="item__header__text">Звонить по номеру</p>
+            </div>
+            <div class="contacts__item__content">8 347 200-20-44</div>
+        </div>
+        <div class="contacts__item">
+            <div class="contacts__item__header">
+                <div class="item__header__icon">
+                    <img src="images/mail.png">
+                </div>
+                <p class="item__header__text">Электронная почта</p>
+            </div>
+            <div class="contacts__item__content">pivbull@mail.ru</div>
+        </div>
+        <div class="contacts__item">
+            <div class="contacts__item__header">
+                <div class="item__header__icon">
+                    <img src="images/clock.png">
+                </div>
+                <p class="item__header__text">Время работы</p>
+            </div>
+            <div class="contacts__item__content">Пн. - Вс. 07:00 - 23:00</div>
+        </div>
+        <div class="contacts__item">
+            <div class="contacts__item__header">
+                <div class="item__header__icon">
+                    <img src="images/location.png">
+                </div>
+                <p class="item__header__text">Наш адрес</p>
+            </div>
+            <div class="contacts__item__content">Башкортостан, Уфа, пр.Октября, 40</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p>ИНН: 700140001897</p>
+            <p>ОРГН: 54338</p>
+        </div>
+        <div class="footer__copyright">
+            <p><a href="https://wd-asha.ru">&copy;wd-asha.ru</a></p>
+        </div>
+    </footer>
+
+
+</main>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+    let burger = document.querySelector('#burger');
+    let mobileMenu = document.querySelector('#mobileMenu');
+    let line1 = document.querySelector('.line1');
+    let line2 = document.querySelector('.line2');
+    let line3 = document.querySelector('.line3');
+
+    burger.addEventListener("click", function() {
+        mobileMenu.classList.toggle("openMobileMenu");
+        line1.classList.toggle("rotateLine1");
+        line2.classList.toggle("hideLine2");
+        line3.classList.toggle("rotateLine3");
+    });
+
+</script>
+<!-- Scroll Up -->
+<script>
+    let toTop = $('#toTop');
+    $(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                toTop.fadeIn();
+            } else {
+                toTop.fadeOut();
+            }
+        });
+        toTop.click(function() {
+            $('body, html').animate({scrollTop: 0}, 800);
+        });
+    });
+</script>
+<script>
+    sPerView = 4;
+    spaceBetween = 60;
+    if(window.innerWidth < 1500) {
+        sPerView = 4;
+        spaceBetween = 50;
+    }
+    if(window.innerWidth < 1400) {
+        sPerView = 4;
+        spaceBetween = 40;
+    }
+    if(window.innerWidth < 1300) {
+        sPerView = 4;
+        spaceBetween = 30;
+    }
+    if(window.innerWidth < 1200) {
+        sPerView = 3;
+        spaceBetween = 30;
+    }
+    if(window.innerWidth < 1100) {
+        sPerView = 3;
+        spaceBetween = 30;
+    }
+    if(window.innerWidth < 850) {
+        sPerView = 3;
+        spaceBetween = 20;
+    }
+    if(window.innerWidth < 600){
+        sPerView = 2;
+        spaceBetween = 10;
+    }
+    if(window.innerWidth < 400){
+        sPerView = 1;
+        spaceBetween = 0;
+    }
+
+    let swiper = new Swiper(".mySwiper", {
+        slidesPerView: sPerView,
+        spaceBetween: spaceBetween,
+        freeMode: true,
+        grabCursor: true,
+        initialSlide: 0,
+        loop: true,
+        speed: 600,
+        autoplay: {
+            delay: 5000,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
+<script>
+    sPerView = 2;
+    if(window.innerWidth < 1151) {
+        sPerView = 3;
+        spaceBetween = 60;
+    }
+    if(window.innerWidth < 1001) {
+        sPerView = 2;
+        spaceBetween = 80;
+    }
+    if(window.innerWidth < 701) {
+        sPerView = 1;
+        spaceBetween = 20;
+    }
+
+    let swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: sPerView,
+        spaceBetween: spaceBetween,
+        freeMode: true,
+        grabCursor: true,
+        initialSlide: 0,
+        loop: true,
+        speed: 600,
+        autoplay: {
+            delay: 5000,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
+</body>
+</html>
